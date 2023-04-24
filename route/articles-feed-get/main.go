@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/aws/aws-lambda-go/events"
-	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/chrisxue815/realworld-aws-lambda-dynamodb-go/model"
-	"github.com/chrisxue815/realworld-aws-lambda-dynamodb-go/service"
-	"github.com/chrisxue815/realworld-aws-lambda-dynamodb-go/util"
 	"strconv"
 	"time"
+
+	"github.com/Experiment-Code/realworld-aws-lambda-dynamodb-go/model"
+	"github.com/Experiment-Code/realworld-aws-lambda-dynamodb-go/service"
+	"github.com/Experiment-Code/realworld-aws-lambda-dynamodb-go/util"
+	"github.com/aws/aws-lambda-go/events"
+	"github.com/aws/aws-lambda-go/lambda"
 )
 
 type Response struct {

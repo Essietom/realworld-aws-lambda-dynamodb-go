@@ -1,10 +1,10 @@
 package service
 
 import (
+	"github.com/Experiment-Code/realworld-aws-lambda-dynamodb-go/model"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbattribute"
-	"github.com/chrisxue815/realworld-aws-lambda-dynamodb-go/model"
 )
 
 func PutComment(comment *model.Comment) error {

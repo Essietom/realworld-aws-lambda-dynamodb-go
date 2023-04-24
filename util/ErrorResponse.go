@@ -2,8 +2,9 @@ package util
 
 import (
 	"encoding/json"
+
+	"github.com/Experiment-Code/realworld-aws-lambda-dynamodb-go/model"
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/chrisxue815/realworld-aws-lambda-dynamodb-go/model"
 )
 
 type InputErrorResponse struct {
